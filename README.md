@@ -7,11 +7,6 @@
 
 ### 1. Clone the Repository
 
-```bash
-git clone <repository-url>
-cd queue
-```
-
 ### 2. Setup Git Hooks
 
 Install Lefthook and setup Git hooks:
@@ -25,11 +20,13 @@ This installs Lefthook and configures the commit-msg validation hook.
 ### 3. Run the Server
 
 **Using Make:**
+
 ```bash
 make run
 ```
 
 **Or directly with Go:**
+
 ```bash
 go run cmd/server/main.go
 ```
@@ -38,13 +35,13 @@ The server will start on `http://localhost:8080`
 
 ## Available Commands
 
-| Command | Description |
-|---------|-------------|
-| `make run` | Run the server in development mode |
+| Command      | Description                                       |
+| ------------ | ------------------------------------------------- |
+| `make run`   | Run the server in development mode                |
 | `make build` | Build the server binary (outputs to `bin/server`) |
-| `make lint` | Run linter (golangci-lint) |
-| `make test` | Run all tests |
-| `make setup` | Install Lefthook and Git hooks |
+| `make lint`  | Run linter (golangci-lint)                        |
+| `make test`  | Run all tests                                     |
+| `make setup` | Install Lefthook and Git hooks                    |
 
 ## API Endpoints
 
@@ -57,6 +54,7 @@ GET /health
 Returns the health status of the server.
 
 **Response:**
+
 ```json
 {
   "status": "ok"
@@ -112,8 +110,6 @@ make lint
 
 ## Configuration
 
-The server currently runs on port `8080` by default. To change the port, modify the `Addr` field in [cmd/server/main.go](cmd/server/main.go):
-
 ```go
 srv := &http.Server{
     Addr:    ":8080",  // Change this to your desired port
@@ -121,21 +117,12 @@ srv := &http.Server{
 }
 ```
 
-## Graceful Shutdown
+## Import convention
 
-The server handles graceful shutdown on receiving `SIGINT` or `SIGTERM` signals:
-- Stops accepting new connections
-- Waits for existing requests to complete (up to 5 seconds)
-- Exits cleanly
+standard library
 
-## Git Hooks
+third-party-package
 
-This project uses [Lefthook](https://github.com/evilmartians/lefthook) for Git hooks management. Currently configured:
-- **commit-msg**: Validates commit message format
+local-package
 
-## Dependencies
-
-Main dependencies:
-- [Gin](https://github.com/gin-gonic/gin) - HTTP web framework
-
-See [go.mod](go.mod) for complete dependency list.
+there should be space between these
