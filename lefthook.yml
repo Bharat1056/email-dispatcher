@@ -1,0 +1,10 @@
+pre-commit:
+  commands:
+    lint:
+      glob: "*.go"
+      run: golangci-lint run ./...
+
+commit-msg:
+  scripts:
+    "validate.sh":
+      runner: bash
