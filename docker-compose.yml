@@ -1,0 +1,20 @@
+services:
+  clickhouse-db:
+    image: clickhouse:latest
+    container_name: clickhouse
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      - CLICKHOUSE_DB=default
+      - CLICKHOUSE_USER=default
+      - CLICKHOUSE_PASSWORD=""
+    volumes:
+      - clickhouse_data:/var/lib/clickhouse
+      - clickhouse_log:/var/log/clickhouse-server
+
+volumes:
+  clickhouse_data:
+  clickhouse_log:
+    
+    
