@@ -10,6 +10,7 @@ import (
 )
 
 type Config struct {
+	PORT                int32
 	DBURL               string
 	DBMaxConns          int32
 	DBMinConns          int32
@@ -27,6 +28,7 @@ func LoadConfig() *Config {
 	}
 
 	return &Config{
+		PORT:                int32(getEnvAsInt("PORT", 8080)),
 		DBURL:               getEnv("DB_URL", "postgres://postgres:password@localhost:5432/queue?sslmode=disable"),
 		DBMaxConns:          int32(getEnvAsInt("DB_MAX_CONNS", 25)),
 		DBMinConns:          int32(getEnvAsInt("DB_MIN_CONNS", 5)),

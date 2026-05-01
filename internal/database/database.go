@@ -11,6 +11,8 @@ import (
 )
 
 func NewPool(ctx context.Context, cfg *config.Config) (*pgxpool.Pool, error) {
+
+	// parse the connection string to get the database configuration
 	dbConfig, err := pgxpool.ParseConfig(cfg.DBURL)
 	if err != nil {
 		return nil, fmt.Errorf("error parsing connection string: %w", err)
@@ -23,6 +25,7 @@ func NewPool(ctx context.Context, cfg *config.Config) (*pgxpool.Pool, error) {
 	dbConfig.MaxConnIdleTime = cfg.DBMaxConnIdleTime
 	dbConfig.HealthCheckPeriod = cfg.DBHealthCheckPeriod
 
+	// create the database pool using the parsed configuration
 	pool, err := pgxpool.NewWithConfig(ctx, dbConfig)
 	if err != nil {
 		return nil, fmt.Errorf("error connecting to the database: %w", err)

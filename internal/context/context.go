@@ -1,5 +1,10 @@
 package context
 
+// Gin is a web framework for building HTTP servers in Go
+// we are using it to handle HTTP requests and responses because raw net/http library
+// does not provide a convenient way to handle JSON requests and responses it is like express.js in golang
+// at core it is a wrapper around net/http library
+
 import (
 	"net/http"
 
@@ -19,12 +24,12 @@ func (c *Context) GinContext() *gin.Context {
 }
 
 // JSON sends a JSON response with the given status code and data.
-func (c *Context) JSON(code int, data interface{}) {
+func (c *Context) JSON(code int, data any) {
 	c.ctx.JSON(code, data)
 }
 
 // String sends a string response with the given status code.
-func (c *Context) String(code int, format string, values ...interface{}) {
+func (c *Context) String(code int, format string, values ...any) {
 	c.ctx.String(code, format, values...)
 }
 
@@ -94,22 +99,22 @@ func (c *Context) AbortWithStatus(code int) {
 }
 
 // AbortWithStatusJSON aborts the request and returns a JSON response.
-func (c *Context) AbortWithStatusJSON(code int, data interface{}) {
+func (c *Context) AbortWithStatusJSON(code int, data any) {
 	c.ctx.AbortWithStatusJSON(code, data)
 }
 
 // Set stores a key-value pair in the context.
-func (c *Context) Set(key string, value interface{}) {
+func (c *Context) Set(key string, value any) {
 	c.ctx.Set(key, value)
 }
 
 // Get retrieves a value from the context by key.
-func (c *Context) Get(key string) (interface{}, bool) {
+func (c *Context) Get(key string) (any, bool) {
 	return c.ctx.Get(key)
 }
 
 // MustGet retrieves a value from the context by key or panics if not found.
-func (c *Context) MustGet(key string) interface{} {
+func (c *Context) MustGet(key string) any {
 	return c.ctx.MustGet(key)
 }
 
@@ -131,13 +136,13 @@ func Wrap(h Handler) gin.HandlerFunc {
 
 // Response is a helper struct for standard API responses.
 type Response struct {
-	Status  string      `json:"status"`
-	Message string      `json:"message,omitempty"`
-	Data    interface{} `json:"data,omitempty"`
+	Status  string `json:"status"`
+	Message string `json:"message,omitempty"`
+	Data    any    `json:"data,omitempty"`
 }
 
 // OK sends a successful JSON response.
-func (c *Context) OK(data interface{}) {
+func (c *Context) OK(data any) {
 	c.JSON(http.StatusOK, Response{
 		Status: "success",
 		Data:   data,
@@ -145,7 +150,7 @@ func (c *Context) OK(data interface{}) {
 }
 
 // Created sends a 201 Created response.
-func (c *Context) Created(data interface{}) {
+func (c *Context) Created(data any) {
 	c.JSON(http.StatusCreated, Response{
 		Status: "success",
 		Data:   data,
