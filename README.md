@@ -37,11 +37,17 @@ The server will start on `http://localhost:8080`
 
 | Command      | Description                                       |
 | ------------ | ------------------------------------------------- |
-| `make run`   | Run the server in development mode                |
-| `make build` | Build the server binary (outputs to `bin/server`) |
-| `make lint`  | Run linter (golangci-lint)                        |
-| `make test`  | Run all tests                                     |
-| `make setup` | Install Lefthook and Git hooks                    |
+| `make run`             | Run the server in development mode                |
+| `make build`           | Build the server binary (outputs to `bin/server`) |
+| `make lint`            | Run linter (golangci-lint)                        |
+| `make test`            | Run all tests                                     |
+| `make setup`           | Install Lefthook and Git hooks                    |
+| `make automigrate`     | Automatically sync DB schema from Go models       |
+| `make install-migrate` | Install the SQL migration tool                    |
+| `make migrate-create`  | Create a new SQL migration file                   |
+| `make migrate-up`      | Run all pending SQL migrations                    |
+| `make migrate-down`    | Rollback the last SQL migration                   |
+| `make migrate-status`  | Show the current SQL migration version            |
 
 ## API Endpoints
 
@@ -68,12 +74,15 @@ Returns the health status of the server.
 ├── cmd/server/
 │   └── main.go           # Application entry point with graceful shutdown
 ├── internal/
+│   ├── database/         # Database connection and initialization
 │   ├── handler/
 │   │   └── health.go     # Health check handler
 │   ├── middleware/
 │   │   └── logger.go     # Request logging middleware
+│   ├── models/           # Data models
 │   └── router/
 │       └── router.go     # Route configuration
+├── migrations/           # Database migration files (SQL)
 ├── Makefile              # Common development tasks
 ├── go.mod                # Go module definition
 ├── go.sum                # Dependency checksums
