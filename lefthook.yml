@@ -1,8 +1,7 @@
 pre-commit:
-  commands:
-    lint:
-      glob: "*.go"
-      run: golangci-lint run ./...
+  scripts:
+    "lint.sh":
+      runner: bash
 
 commit-msg:
   scripts:
