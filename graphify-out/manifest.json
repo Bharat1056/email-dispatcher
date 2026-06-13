@@ -1,0 +1,152 @@
+{
+  "D:\\Coding\\Personal\\queue\\.lefthook\\commit-msg\\validate.sh": {
+    "mtime": 1775833868.1373942,
+    "ast_hash": "f7e5802e7a6773aef95adf7bc5a2c1ac",
+    "semantic_hash": "f7e5802e7a6773aef95adf7bc5a2c1ac"
+  },
+  "D:\\Coding\\Personal\\queue\\cmd\\mailer\\main.go": {
+    "mtime": 1779535155.2188065,
+    "ast_hash": "42dedf3a0f076896c1683fe80ca9110e",
+    "semantic_hash": "42dedf3a0f076896c1683fe80ca9110e"
+  },
+  "D:\\Coding\\Personal\\queue\\cmd\\migrate\\main.go": {
+    "mtime": 1777715729.2620435,
+    "ast_hash": "997f2ede163b81f139b5b9d4ab5e5243",
+    "semantic_hash": "997f2ede163b81f139b5b9d4ab5e5243"
+  },
+  "D:\\Coding\\Personal\\queue\\cmd\\server\\main.go": {
+    "mtime": 1779535146.6346693,
+    "ast_hash": "97b583f633689f801b934735e2bebbfc",
+    "semantic_hash": "97b583f633689f801b934735e2bebbfc"
+  },
+  "D:\\Coding\\Personal\\queue\\docs\\migrations\\000001_create_users_table.up.sql": {
+    "mtime": 1777657260.3381066,
+    "ast_hash": "e556ffe9f8982caf1f86d5b0eef5725c",
+    "semantic_hash": "e556ffe9f8982caf1f86d5b0eef5725c"
+  },
+  "D:\\Coding\\Personal\\queue\\docs\\migrations\\000002_create_jobs_table.down.sql": {
+    "mtime": 1779534920.2814395,
+    "ast_hash": "8e798e4ecf24fd8caf5dd2ced4644161",
+    "semantic_hash": "8e798e4ecf24fd8caf5dd2ced4644161"
+  },
+  "D:\\Coding\\Personal\\queue\\docs\\migrations\\000002_create_jobs_table.up.sql": {
+    "mtime": 1779534915.0699997,
+    "ast_hash": "2902363dbd3dae184d30a13bb091d015",
+    "semantic_hash": "2902363dbd3dae184d30a13bb091d015"
+  },
+  "D:\\Coding\\Personal\\queue\\internal\\basequeue\\base_queue.go": {
+    "mtime": 1781060698.9267805,
+    "ast_hash": "50de3a7a6d3bbc8074afb4dcde92b745",
+    "semantic_hash": "50de3a7a6d3bbc8074afb4dcde92b745"
+  },
+  "D:\\Coding\\Personal\\queue\\internal\\config\\config.go": {
+    "mtime": 1777658422.3489058,
+    "ast_hash": "2f6550d5e22316ba6061df50929a2d30",
+    "semantic_hash": "2f6550d5e22316ba6061df50929a2d30"
+  },
+  "D:\\Coding\\Personal\\queue\\internal\\context\\context.go": {
+    "mtime": 1779732349.6027362,
+    "ast_hash": "f10d7a85b560a5ad4fc7d04d74142112",
+    "semantic_hash": "f10d7a85b560a5ad4fc7d04d74142112"
+  },
+  "D:\\Coding\\Personal\\queue\\internal\\database\\database.go": {
+    "mtime": 1777660714.9216163,
+    "ast_hash": "a9c466c39c6a488db4ff2dd9170ae979",
+    "semantic_hash": "a9c466c39c6a488db4ff2dd9170ae979"
+  },
+  "D:\\Coding\\Personal\\queue\\internal\\emailqueue\\delayed_queue.go": {
+    "mtime": 1780767692.764213,
+    "ast_hash": "ba7cb729f7b710cc0e913513b097f007",
+    "semantic_hash": "ba7cb729f7b710cc0e913513b097f007"
+  },
+  "D:\\Coding\\Personal\\queue\\internal\\emailqueue\\delayed_queue_test.go": {
+    "mtime": 1780767799.0192606,
+    "ast_hash": "c9ab5a33d5a77d4a1fb1746b77f5a21e",
+    "semantic_hash": "c9ab5a33d5a77d4a1fb1746b77f5a21e"
+  },
+  "D:\\Coding\\Personal\\queue\\internal\\emailqueue\\logger_queue.go": {
+    "mtime": 1779651699.3535142,
+    "ast_hash": "bf98960dcf4f53d9bd7db7eebf71c070",
+    "semantic_hash": "bf98960dcf4f53d9bd7db7eebf71c070"
+  },
+  "D:\\Coding\\Personal\\queue\\internal\\emailqueue\\mailer.go": {
+    "mtime": 1779535109.6407897,
+    "ast_hash": "c571860a8c775dc21cc8b3e6ccfb2bc7",
+    "semantic_hash": "c571860a8c775dc21cc8b3e6ccfb2bc7"
+  },
+  "D:\\Coding\\Personal\\queue\\internal\\emailqueue\\main_queue.go": {
+    "mtime": 1779651692.5501566,
+    "ast_hash": "ee55b62993afe0828846d97b25319e21",
+    "semantic_hash": "ee55b62993afe0828846d97b25319e21"
+  },
+  "D:\\Coding\\Personal\\queue\\internal\\emailqueue\\queue.go": {
+    "mtime": 1779535185.204641,
+    "ast_hash": "1713f7deb6c222054c2a6beccaee8db7",
+    "semantic_hash": "1713f7deb6c222054c2a6beccaee8db7"
+  },
+  "D:\\Coding\\Personal\\queue\\internal\\emailqueue\\types.go": {
+    "mtime": 1779535177.8574872,
+    "ast_hash": "6c9d9589bf15657f09d89144c897a8f8",
+    "semantic_hash": "6c9d9589bf15657f09d89144c897a8f8"
+  },
+  "D:\\Coding\\Personal\\queue\\internal\\emailqueue\\validator.go": {
+    "mtime": 1778326010.7811923,
+    "ast_hash": "de0240089ab3621e0af2f3a0b82c6fc6",
+    "semantic_hash": "de0240089ab3621e0af2f3a0b82c6fc6"
+  },
+  "D:\\Coding\\Personal\\queue\\internal\\emailqueue\\validator_test.go": {
+    "mtime": 1779535271.5310907,
+    "ast_hash": "8529669ce7f124823df42b40dc0e88e6",
+    "semantic_hash": "8529669ce7f124823df42b40dc0e88e6"
+  },
+  "D:\\Coding\\Personal\\queue\\internal\\handler\\health.go": {
+    "mtime": 1777658422.3567622,
+    "ast_hash": "c595fec10522fee7b0355893495a6f77",
+    "semantic_hash": "c595fec10522fee7b0355893495a6f77"
+  },
+  "D:\\Coding\\Personal\\queue\\internal\\handler\\job.go": {
+    "mtime": 1779732363.7870007,
+    "ast_hash": "b6787059f030406181fc6588308f01fa",
+    "semantic_hash": "b6787059f030406181fc6588308f01fa"
+  },
+  "D:\\Coding\\Personal\\queue\\internal\\middleware\\logger.go": {
+    "mtime": 1775835602.2564223,
+    "ast_hash": "e3220e4be86bcb884f39cd20ea269550",
+    "semantic_hash": "e3220e4be86bcb884f39cd20ea269550"
+  },
+  "D:\\Coding\\Personal\\queue\\internal\\repository\\job_repository.go": {
+    "mtime": 1779535121.9845922,
+    "ast_hash": "14d4efc06ef8bab058bf04cb4d00b407",
+    "semantic_hash": "14d4efc06ef8bab058bf04cb4d00b407"
+  },
+  "D:\\Coding\\Personal\\queue\\internal\\router\\router.go": {
+    "mtime": 1779536321.0190938,
+    "ast_hash": "c819dd70faa70f24dda11621031022d8",
+    "semantic_hash": "c819dd70faa70f24dda11621031022d8"
+  },
+  "D:\\Coding\\Personal\\queue\\.github\\pull_request_template.md": {
+    "mtime": 1775836323.9939501,
+    "ast_hash": "d090604365ad4b0a7ab0d7f2a9c28523",
+    "semantic_hash": "d090604365ad4b0a7ab0d7f2a9c28523"
+  },
+  "D:\\Coding\\Personal\\queue\\.golangci.yml": {
+    "mtime": 1775832891.858526,
+    "ast_hash": "32d85cdfd99860600d3a88c69c2a809f",
+    "semantic_hash": "32d85cdfd99860600d3a88c69c2a809f"
+  },
+  "D:\\Coding\\Personal\\queue\\README.md": {
+    "mtime": 1777708182.7326436,
+    "ast_hash": "a5250faa6c94b77a4b7586b7d48b106e",
+    "semantic_hash": "a5250faa6c94b77a4b7586b7d48b106e"
+  },
+  "D:\\Coding\\Personal\\queue\\docker-compose.yml": {
+    "mtime": 1777657260.3381066,
+    "ast_hash": "4025e7b5997481f2fd4c8c51ab0bb558",
+    "semantic_hash": "4025e7b5997481f2fd4c8c51ab0bb558"
+  },
+  "D:\\Coding\\Personal\\queue\\lefthook.yml": {
+    "mtime": 1775832891.853505,
+    "ast_hash": "90637495d3a370c9148fcea3ed10d4b6",
+    "semantic_hash": "90637495d3a370c9148fcea3ed10d4b6"
+  }
+}
