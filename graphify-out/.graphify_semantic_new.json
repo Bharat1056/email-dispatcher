@@ -1,0 +1,1274 @@
+{
+  "nodes": [
+    {
+      "id": "validate_validate",
+      "label": "Commit Message Validate Script",
+      "file_type": "code",
+      "source_file": ".lefthook/commit-msg/validate.sh",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "mailer_main",
+      "label": "Mailer Main",
+      "file_type": "code",
+      "source_file": "cmd/mailer/main.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "migrate_main",
+      "label": "Migrate Main",
+      "file_type": "code",
+      "source_file": "cmd/migrate/main.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "server_main",
+      "label": "Server Main",
+      "file_type": "code",
+      "source_file": "cmd/server/main.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "migrations_000001_create_users_table",
+      "label": "Create Users Table Migration",
+      "file_type": "code",
+      "source_file": "docs/migrations/000001_create_users_table.up.sql",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "migrations_000002_create_jobs_table_down",
+      "label": "Create Jobs Table Down Migration",
+      "file_type": "code",
+      "source_file": "docs/migrations/000002_create_jobs_table.down.sql",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "migrations_000002_create_jobs_table",
+      "label": "Create Jobs Table Migration",
+      "file_type": "code",
+      "source_file": "docs/migrations/000002_create_jobs_table.up.sql",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "basequeue_base_queue",
+      "label": "BaseQueue",
+      "file_type": "code",
+      "source_file": "internal/basequeue/base_queue.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "config_config",
+      "label": "Config",
+      "file_type": "code",
+      "source_file": "internal/config/config.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "context_context",
+      "label": "Context",
+      "file_type": "code",
+      "source_file": "internal/context/context.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_database",
+      "label": "Database Pool",
+      "file_type": "code",
+      "source_file": "internal/database/database.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "emailqueue_delayed_queue",
+      "label": "DelayedQueue",
+      "file_type": "code",
+      "source_file": "internal/emailqueue/delayed_queue.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "emailqueue_delayed_queue_test",
+      "label": "Delayed Queue Tests",
+      "file_type": "code",
+      "source_file": "internal/emailqueue/delayed_queue_test.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "emailqueue_logger_queue",
+      "label": "LoggerQueue",
+      "file_type": "code",
+      "source_file": "internal/emailqueue/logger_queue.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "emailqueue_queue_manager",
+      "label": "QueueManager",
+      "file_type": "code",
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "emailqueue_config",
+      "label": "Config",
+      "file_type": "code",
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "emailqueue_main_queue",
+      "label": "MainQueue",
+      "file_type": "code",
+      "source_file": "internal/emailqueue/main_queue.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "emailqueue_mailer",
+      "label": "Mailer",
+      "file_type": "code",
+      "source_file": "internal/emailqueue/mailer.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "emailqueue_types_message",
+      "label": "Message",
+      "file_type": "code",
+      "source_file": "internal/emailqueue/types.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "emailqueue_types_sender",
+      "label": "Sender",
+      "file_type": "code",
+      "source_file": "internal/emailqueue/types.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "emailqueue_types_job",
+      "label": "Job",
+      "file_type": "code",
+      "source_file": "internal/emailqueue/types.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "emailqueue_types_job_attempt",
+      "label": "JobAttempt",
+      "file_type": "code",
+      "source_file": "internal/emailqueue/types.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "emailqueue_types_queue",
+      "label": "Queue",
+      "file_type": "code",
+      "source_file": "internal/emailqueue/types.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "emailqueue_validator_validate_email",
+      "label": "validateEmail",
+      "file_type": "code",
+      "source_file": "internal/emailqueue/validator.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "emailqueue_validator_test_validate_email",
+      "label": "TestValidateEmail",
+      "file_type": "code",
+      "source_file": "internal/emailqueue/validator_test.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "handler_health",
+      "label": "HealthCheck",
+      "file_type": "code",
+      "source_file": "internal/handler/health.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "handler_job",
+      "label": "JobHandler",
+      "file_type": "code",
+      "source_file": "internal/handler/job.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "handler_job_enqueue",
+      "label": "JobHandler.Enqueue",
+      "file_type": "code",
+      "source_file": "internal/handler/job.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "handler_job_get_dlq",
+      "label": "JobHandler.GetDLQ",
+      "file_type": "code",
+      "source_file": "internal/handler/job.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "handler_job_replay_dlq",
+      "label": "JobHandler.ReplayDLQ",
+      "file_type": "code",
+      "source_file": "internal/handler/job.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "handler_job_delete_dlq",
+      "label": "JobHandler.DeleteDLQ",
+      "file_type": "code",
+      "source_file": "internal/handler/job.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "middleware_logger",
+      "label": "Logger",
+      "file_type": "code",
+      "source_file": "internal/middleware/logger.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "repository_job_repository",
+      "label": "JobRepository",
+      "file_type": "code",
+      "source_file": "internal/repository/job_repository.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "repository_job_get_dlq_jobs",
+      "label": "JobRepository.GetDLQJobs",
+      "file_type": "code",
+      "source_file": "internal/repository/job_repository.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "repository_job_replay_job",
+      "label": "JobRepository.ReplayJob",
+      "file_type": "code",
+      "source_file": "internal/repository/job_repository.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "repository_job_delete_job",
+      "label": "JobRepository.DeleteJob",
+      "file_type": "code",
+      "source_file": "internal/repository/job_repository.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "repository_job_get_job_attempts",
+      "label": "JobRepository.GetJobAttempts",
+      "file_type": "code",
+      "source_file": "internal/repository/job_repository.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "router_setup",
+      "label": "Setup",
+      "file_type": "code",
+      "source_file": "internal/router/router.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_retry_with_backoff",
+      "label": "Exponential Backoff Retry",
+      "file_type": "rationale",
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_dead_letter_queue",
+      "label": "Dead Letter Queue (DLQ)",
+      "file_type": "rationale",
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_batch_logging",
+      "label": "Batch Logging",
+      "file_type": "rationale",
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_job_recovery",
+      "label": "Crash Recovery",
+      "file_type": "rationale",
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_worker_pool",
+      "label": "Worker Pool",
+      "file_type": "rationale",
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_real_time_scheduler",
+      "label": "Real-Time Timer Scheduler",
+      "file_type": "rationale",
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_pr_template",
+      "label": "Pull Request Template",
+      "file_type": "document",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_golangci_lint_config",
+      "label": "GolangCI Lint Configuration",
+      "file_type": "document",
+      "source_file": ".golangci.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_readme",
+      "label": "README",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_docker_compose",
+      "label": "Docker Compose",
+      "file_type": "document",
+      "source_file": "docker-compose.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_lefthook_config",
+      "label": "Lefthook Git Hooks Configuration",
+      "file_type": "document",
+      "source_file": "lefthook.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "emailqueue_delayed_queue",
+      "target": "basequeue_base_queue",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/emailqueue/delayed_queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_logger_queue",
+      "target": "basequeue_base_queue",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/emailqueue/logger_queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "server_main",
+      "target": "emailqueue_delayed_queue",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cmd/server/main.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "server_main",
+      "target": "config_config",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cmd/server/main.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "server_main",
+      "target": "database_database",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cmd/server/main.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "server_main",
+      "target": "emailqueue_logger_queue",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cmd/server/main.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "mailer_main",
+      "target": "emailqueue_delayed_queue",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cmd/mailer/main.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "mailer_main",
+      "target": "config_config",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cmd/mailer/main.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "mailer_main",
+      "target": "database_database",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cmd/mailer/main.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "mailer_main",
+      "target": "emailqueue_logger_queue",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cmd/mailer/main.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "migrate_main",
+      "target": "config_config",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cmd/migrate/main.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "config_config",
+      "target": "database_database",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/config/config.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "config_config",
+      "target": "migrate_main",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/config/config.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "database_database",
+      "target": "migrations_000001_create_users_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/database/database.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "database_database",
+      "target": "migrations_000002_create_jobs_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/database/database.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_logger_queue",
+      "target": "database_database",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/emailqueue/logger_queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_logger_queue",
+      "target": "migrations_000002_create_jobs_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/emailqueue/logger_queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_logger_queue",
+      "target": "migrations_000002_create_jobs_table_down",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/emailqueue/logger_queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_delayed_queue_test",
+      "target": "emailqueue_delayed_queue",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/emailqueue/delayed_queue_test.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_delayed_queue",
+      "target": "basequeue_base_queue",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "internal/emailqueue/delayed_queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_logger_queue",
+      "target": "basequeue_base_queue",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "internal/emailqueue/logger_queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "server_main",
+      "target": "mailer_main",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "cmd/server/main.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_delayed_queue",
+      "target": "emailqueue_logger_queue",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "internal/emailqueue/delayed_queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_logger_queue",
+      "target": "migrations_000002_create_jobs_table",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "internal/emailqueue/logger_queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "migrations_000002_create_jobs_table_down",
+      "target": "migrations_000002_create_jobs_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/migrations/000002_create_jobs_table.down.sql",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_queue_manager",
+      "target": "emailqueue_config",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_queue_manager",
+      "target": "emailqueue_main_queue",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_queue_manager",
+      "target": "emailqueue_mailer",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_queue_manager",
+      "target": "emailqueue_types_job",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_queue_manager",
+      "target": "emailqueue_types_message",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_queue_manager",
+      "target": "emailqueue_validator_validate_email",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_queue_manager",
+      "target": "emailqueue_types_sender",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_main_queue",
+      "target": "emailqueue_types_job",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/emailqueue/main_queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_main_queue",
+      "target": "emailqueue_types_queue",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "internal/emailqueue/main_queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_mailer",
+      "target": "emailqueue_types_message",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/emailqueue/mailer.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_mailer",
+      "target": "emailqueue_types_sender",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "internal/emailqueue/mailer.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_validator_validate_email",
+      "target": "emailqueue_validator_test_validate_email",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/emailqueue/validator_test.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "handler_job",
+      "target": "emailqueue_queue_manager",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/handler/job.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "handler_job",
+      "target": "repository_job_repository",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/handler/job.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "handler_job_enqueue",
+      "target": "emailqueue_queue_manager",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/handler/job.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "handler_job_enqueue",
+      "target": "emailqueue_types_message",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/handler/job.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "handler_job_get_dlq",
+      "target": "repository_job_get_dlq_jobs",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/handler/job.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "handler_job_get_dlq",
+      "target": "repository_job_get_job_attempts",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/handler/job.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "handler_job_get_dlq",
+      "target": "emailqueue_types_job",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/handler/job.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "handler_job_get_dlq",
+      "target": "emailqueue_types_job_attempt",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/handler/job.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "handler_job_replay_dlq",
+      "target": "repository_job_replay_job",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/handler/job.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "handler_job_replay_dlq",
+      "target": "emailqueue_queue_manager",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/handler/job.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "handler_job_delete_dlq",
+      "target": "repository_job_delete_job",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/handler/job.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_logger",
+      "target": "handler_health",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "internal/middleware/logger.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "repository_job_repository",
+      "target": "emailqueue_types_job",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/repository/job_repository.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "repository_job_repository",
+      "target": "emailqueue_types_job_attempt",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/repository/job_repository.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "router_setup",
+      "target": "handler_job",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/router/router.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "router_setup",
+      "target": "handler_health",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/router/router.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "router_setup",
+      "target": "middleware_logger",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/router/router.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "concept_retry_with_backoff",
+      "target": "emailqueue_queue_manager",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "concept_dead_letter_queue",
+      "target": "emailqueue_queue_manager",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "concept_batch_logging",
+      "target": "emailqueue_queue_manager",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "concept_job_recovery",
+      "target": "emailqueue_queue_manager",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "concept_worker_pool",
+      "target": "emailqueue_queue_manager",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "concept_real_time_scheduler",
+      "target": "emailqueue_queue_manager",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "internal/emailqueue/queue.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_types_queue",
+      "target": "emailqueue_types_job",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/emailqueue/types.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "emailqueue_types_job_attempt",
+      "target": "emailqueue_types_job",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "internal/emailqueue/types.go",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "doc_readme",
+      "target": "doc_docker_compose",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "doc_lefthook_config",
+      "target": "doc_golangci_lint_config",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "lefthook.yml",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "emailqueue_lifecycle_system",
+      "label": "Email Queue Lifecycle System",
+      "nodes": [
+        "basequeue_base_queue",
+        "emailqueue_delayed_queue",
+        "emailqueue_logger_queue"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "internal/emailqueue/delayed_queue.go"
+    },
+    {
+      "id": "server_entry_point_wiring",
+      "label": "Server Entry Point Wiring",
+      "nodes": [
+        "server_main",
+        "config_config",
+        "database_database",
+        "emailqueue_delayed_queue",
+        "emailqueue_logger_queue"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "cmd/server/main.go"
+    },
+    {
+      "id": "jobs_lifecycle_schema_and_code",
+      "label": "Jobs Lifecycle Schema and Code",
+      "nodes": [
+        "emailqueue_logger_queue",
+        "migrations_000002_create_jobs_table",
+        "migrations_000002_create_jobs_table_down"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "internal/emailqueue/logger_queue.go"
+    },
+    {
+      "id": "email_processing_flow",
+      "label": "Email Processing Flow",
+      "nodes": [
+        "handler_job_enqueue",
+        "emailqueue_queue_manager",
+        "emailqueue_main_queue",
+        "emailqueue_mailer",
+        "concept_worker_pool"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "internal/emailqueue/queue.go"
+    },
+    {
+      "id": "dlq_management_flow",
+      "label": "DLQ Management Flow",
+      "nodes": [
+        "handler_job_get_dlq",
+        "handler_job_replay_dlq",
+        "handler_job_delete_dlq",
+        "repository_job_repository",
+        "concept_dead_letter_queue"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "internal/handler/job.go"
+    },
+    {
+      "id": "job_retry_mechanism",
+      "label": "Job Retry Mechanism",
+      "nodes": [
+        "concept_retry_with_backoff",
+        "concept_dead_letter_queue",
+        "concept_job_recovery",
+        "concept_real_time_scheduler"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "internal/emailqueue/queue.go"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
